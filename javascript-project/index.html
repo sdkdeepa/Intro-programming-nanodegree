@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Pixel Art Maker!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Pixel Art Maker</h1>
+    <h3>Step 1 - Choose Canvas Size</h2>
+        <form id="sizePicker">
+            <label> Enter Canvas Height (max upto 200): </label>
+            <input type="number" id="inputHeight" name="height" min="1" max="200">
+            <label> Enter Canvas Width (max upto 100):</label>
+            <input type="number" id="inputWidth" name="width" min="1" max="100">
+            <input type="submit" id="form-submit" value="Submit">
+        </form>
+
+        <h3>Step 2 - Pick a color to fill the grids</h2>
+            <input type="color" id="colorPicker">
+
+            <h3>Step 3 - Design canvas</h2>
+                <p> Refresh page to start over!</p>
+                <table id="pixelCanvas"></table>
+                <script src="designs.js"></script>
+</body>
+
+</html>
