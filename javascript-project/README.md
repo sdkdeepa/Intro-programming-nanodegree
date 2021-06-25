@@ -3,7 +3,7 @@ Pixel Art Maker is a single-page web app that allows users to draw pixel art on 
 
 This project was developed through the Udacity Intro to Programming Nanodegree Program.
 
-You can download and open the https://github.com/sdkdeepa/pixel-art-maker/blob/main/index.html file to use the app.
+You can download and open the `index.html` file to use the app.
 
 Users should be able to:
 * Dynamically set the size of the canvas
